@@ -1,8 +1,14 @@
 {
   "name": "crowdfunding-lib",
   "version": "0.1.0",
-  "main": "dist/index.js",
-  "module": "dist/index.esm.js",
+  "main": "dist/crowdfunding-lib.umd.js",
+  "module": "dist/crowdfunding-lib.es.js",
+  "exports": {
+    ".": {
+      "require": "./dist/crowdfunding-lib.umd.js",
+      "import": "./dist/crowdfunding-lib.es.js"
+    }
+  },
   "scripts": {
     "build": "vite build"
   },
