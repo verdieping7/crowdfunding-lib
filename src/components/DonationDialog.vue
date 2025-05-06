@@ -1,5 +1,5 @@
 <template>
-    <q-dialog v-model="modelValue">
+    <q-dialog :model-value="modelValue">
       <q-card>
         <q-card-section class="text-h6">Doneer</q-card-section>
         <q-card-section>

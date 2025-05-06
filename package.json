@@ -14,7 +14,7 @@
   "devDependencies": {
     "vite": "^4.0.0",
     "@vitejs/plugin-vue": "^4.0.0",
-    "@quasar/vite-plugin": "^2.0.0"
+    "@quasar/vite-plugin": "^1.0.0"
   },
   "repository": "https://github.com/verdieping7/crowdfunding-lib"
 }

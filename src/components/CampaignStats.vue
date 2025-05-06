@@ -3,7 +3,7 @@
       <div class="text-subtitle2">{{ supporters }} supporters</div>
       <q-linear-progress :value="progress/100" stripe rounded size="20px">
         <div class="absolute-full flex flex-center">
-          <q-badge :label="progress + '%" />
+          <q-badge :label="progress + '%'" />
         </div>
       </q-linear-progress>
       <div class="q-mt-sm">
