@@ -2,11 +2,11 @@
   "name": "crowdfunding-lib",
   "version": "0.1.0",
   "main": "dist/crowdfunding-lib.umd.js",
-  "module": "dist/crowdfunding-lib.es.js",
+  "module": "dist/crowdfunding-lib.mjs",
   "exports": {
     ".": {
       "require": "./dist/crowdfunding-lib.umd.js",
-      "import": "./dist/crowdfunding-lib.es.js"
+      "import": "./dist/crowdfunding-lib.mjs"
     }
   },
   "scripts": {
